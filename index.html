@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			@keyframes pic_anmin{
+				0%{
+					transform: translate(0);
+				}
+				100%{
+					transform: translate(-2500px);
+				}
+				
+			}
+			.pic {
+				margin: 100px 100px;
+				width: 500px;
+				height: 500px;
+				/* border: 1px solid blue; */
+				outline: 2px solid red;
+				overflow: hidden;
+			}
+			.pic_1 {
+				width: 3000px;
+			}
+			.pic img {
+				float: left;
+				animation: pic_anmin 5s infinite linear ;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="pic">
+			<div class="pic_1">
+				<img src="img/1.jpg" alt="">
+				<img src="img/2.jpg" alt="">
+				<img src="img/3.jpg" alt="">
+				<img src="img/4.jpg" alt="">
+				<img src="img/5.jpg" alt="">
+				<img src="img/1.jpg" alt="">
+			</div>
+		</div>
+	</body>
+</html>
